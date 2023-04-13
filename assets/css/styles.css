@@ -333,6 +333,12 @@ button {
 	margin-bottom: var(--mb-3);
 }
 
+.home__btns {
+	display: flex;
+	column-gap: .5rem;
+	align-items: center;
+}
+
 .home__button {
 	box-shadow: 0 12px 24px hsla(0, 0, 10%, .2);
 }
