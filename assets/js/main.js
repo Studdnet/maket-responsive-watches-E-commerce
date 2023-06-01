@@ -58,15 +58,21 @@ let testimonialSwiper = new Swiper(".testimonial-swiper", {
 /*=============== NEW SWIPER ===============*/
 
 let newSwiper = new Swiper(".new-swiper", {
-	spaceBetween: 30,
+	spaceBetween: 24,
 	loop: 'true', 
-	
 
-	navigation: {
-	  nextEl: ".swiper-button-next",
-	  prevEl: ".swiper-button-prev",
-	},
- });
+	breakpoints: {
+		576: {
+		  slidesPerView: 2,
+		},
+		768: {
+		  slidesPerView: 3,
+		},
+		1024: {
+		  slidesPerView: 4,
+		},
+	 },
+  });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
