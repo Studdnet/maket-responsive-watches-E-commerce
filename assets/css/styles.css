@@ -842,6 +842,15 @@ button {
 
 /*=============== SCROLL BAR ===============*/
 
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background: hsl(0, 0%, 74%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 17%);
+}
+
 /*=============== CART ===============*/
 
 /* Show cart */
