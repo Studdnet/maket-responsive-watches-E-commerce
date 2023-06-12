@@ -212,6 +212,7 @@ body.dark-theme {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
+  /* For animation dark mode  */
   transition: 0.3s;
 }
 
