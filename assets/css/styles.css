@@ -1003,7 +1003,20 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 
+  .home__img-bg {
+    width: 220px;
+  }
+
+  .home__title {
+    font-size: var(--h1-font-size);
+  }
+}
 /* For medium devices */
 
 /* For large devices */
