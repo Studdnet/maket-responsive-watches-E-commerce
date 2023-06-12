@@ -141,6 +141,27 @@ body.dark-theme {
     the website, in dark theme 
 ==========*/
 
+.dark-theme .change-theme,
+.dark-theme .nav__toggle,
+.dark-theme .nav__shops,
+.dark-theme .button--gray {
+  color: hsl(0, 0%, 15%);
+}
+
+.dark-theme .scroll-header {
+  box-shadow: hsla(0, 0%, 4%, 0.3);
+}
+
+.scroll-header .change-theme,
+.scroll-header .nav__toggle,
+.scroll-header .nav__shops {
+  color: var(--title-color);
+}
+
+.dark-theme::-webkit-scrollbar {
+  background: hsl(0, 0%, 30%);
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 .container {
